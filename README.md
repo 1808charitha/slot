@@ -31,37 +31,7 @@ Execute the program using runserver command.
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slot Timetable</title>
-    <style>
-      .table1 {
-        background-color: rgb(244, 135, 213);
-        border-color: gray;
-        text-align: center;
-        width: 1200px;
-        height: 250px;
-      }
-
-      .table2 {
-        border-color: gray;
-        text-align: center;
-        width: 1200px;
-        height: 250px;
-      }
-
-      .name {
-        padding-left: 185px;
-      }
-
-      .row1 {
-        background-color:rebeccapurple;
-      }
-
-      .c1 {
-        background-color: rgb(201, 201, 85);
-      }
-      .x{
-        background-color: rgb(120, 175, 234);
-      }
-    </style>
+    
   </head>
 
   <body>
@@ -69,95 +39,95 @@ Execute the program using runserver command.
       src="logo.png" height="200" width="1200"/>
     <h3 class="name">SLOT TIMETABLE - Charitha K (212221040068)</h3>
     <table border="1" class="table1">
-      <tr class="row1">
-        <th class="c1">Day/Time</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
+      <tr class="row1" >
+        <th bgcolor="skyblue">Day/Time</th>
+        <th bgcolor="skyblue">Monday</th>
+        <th bgcolor="skyblue">Tuesday</th>
+        <th bgcolor="skyblue">Wednesday</th>
+        <th bgcolor="skyblue">Thursday</th>
+        <th bgcolor="skyblue">Friday</th>
+        <th bgcolor="skyblue">Saturday</th>
       </tr>
       <tr>
-        <td class="c1">8-10</td>
-        <td>FS</td>
-        <td>Ethical Hacking</td>
-        <td colspan="2">FS</td>
-        <td>WEB</td>
-        <td>MPMC</td>
+        <td bgcolor="lavender">8-10</td>
+        <td bgcolor="pink">FS</td>
+        <td bgcolor="pink">Ethical Hacking</td>
+        <td colspan="2" bgcolor="pink">FS</td>
+        <td bgcolor="pink">WEB</td>
+        <td bgcolor="pink">MPMC</td>
         
       </tr>
       <tr>
-        <td class="c1">10-12</td>
-        <td>MPMC</td>
-        <td>SPM</td>
-        <td>FS</td>
-        <td>SPM</td>
-        <td>YOGA</td>
-        <td>FS</td>
+        <td bgcolor="lavender">10-12</td>
+        <td bgcolor="pink">MPMC</td>
+        <td bgcolor="pink">SPM</td>
+        <td bgcolor="pink">FS</td>
+        <td bgcolor="pink">SPM</td>
+        <td bgcolor="pink">YOGA</td>
+        <td bgcolor="pink">FS</td>
       </tr>
       <tr>
-        <td class="c1">12-1</td>
-        <th colspan="6" class="x">LUNCH BREAK</th>
+        <td bgcolor="lavender">12-1</td>
+        <th colspan="6" class="x" bgcolor="beige">LUNCH BREAK</th>
       </tr>
       <tr>
-        <td class="c1">1-3</td>
-        <td>DS</td>
-        <td>WEB</td>
-        <td>MPMC</td>
-        <td>WEB</td>
-        <td>AQLR</td>
-        <td>ETHICAL HACKING</td>
+        <td bgcolor="lavender">1-3</td>
+        <td bgcolor="pink">DS</td>
+        <td bgcolor="pink">WEB</td>
+        <td bgcolor="pink">MPMC</td>
+        <td bgcolor="pink">WEB</td>
+        <td bgcolor="pink">AQLR</td>
+        <td bgcolor="pink">ETHICAL HACKING</td>
        
       </tr>
       <tr>
-        <td class="c1">3-5</td>
-        <th colspan="5">FS</th>
-        <td>DS</td>
+        <td bgcolor="lavender">3-5</td>
+        <th colspan="5" bgcolor="pink">FS</th>
+        <td bgcolor="pink">DS</td>
       </tr>
     </table>
     <br />
     <br />
     <table border="1" class="table2">
       <tr>
-        <th>S.No.</th>
-        <th>Subject Code</th>
-        <th>Subject Name</th>
+        <th bgcolor="orange">S.No.</th>
+        <th bgcolor="orange">Subject Code</th>
+        <th bgcolor="orange">Subject Name</th>
       </tr>
       <tr>
-        <td>1.</td>
-        <td>19EC408</td>
-        <td>Microprocessor and Microcontroller (MPMC)</td>
+        <td bgcolor="violet">1.</td>
+        <td bgcolor="yellow">19EC408</td>
+        <td bgcolor="yellow">Microprocessor and Microcontroller (MPMC)</td>
       </tr>
       <tr>
-        <td>2.</td>
-        <td>19AI403</td>
-        <td>Introduction To DS(DS)</td>
+        <td bgcolor="violet">2.</td>
+        <td bgcolor="yellow">19AI403</td>
+        <td bgcolor="yellow">Introduction To DS(DS)</td>
       </tr>
       <tr>
-        <td>3.</td>
-        <td>19CS417</td>
-        <td>Ethical Hacking</td>
+        <td bgcolor="violet">3.</td>
+        <td bgcolor="yellow">19CS417</td>
+        <td bgcolor="yellow">Ethical Hacking</td>
       </tr>
       <tr>
-        <td>4.</td>
-        <td>19AI414</td>
-        <td>Fundamentals of Web Applications Development (WEB)</td>
+        <td bgcolor="violet">4.</td>
+        <td bgcolor="yellow">19AI414</td>
+        <td bgcolor="yellow">Fundamentals of Web Applications Development (WEB)</td>
       </tr>
       <tr>
-        <td>5.</td>
-        <td>19CS504</td>
-        <td>Software Project Management(SPM)</td>
+        <td bgcolor="violet">5.</td>
+        <td bgcolor="yellow">19CS504</td>
+        <td bgcolor="yellow">Software Project Management(SPM)</td>
       </tr>
       <tr>
-        <td>6.</td>
-        <td>19EN616</td>
-        <td>Yoga And Meditation</td>
+        <td bgcolor="violet">6.</td>
+        <td bgcolor="yellow">19EN616</td>
+        <td bgcolor="yellow">Yoga And Meditation</td>
       </tr>
       <tr>
-        <td>7.</td>
-        <td>19EY704</td>
-        <td>Advanced Quantitative and Logical Reasoning</td>
+        <td bgcolor="violet">7.</td>
+        <td bgcolor="yellow">19EY704</td>
+        <td bgcolor="yellow">Advanced Quantitative and Logical Reasoning</td>
       </tr>
     </table>
   </body>
@@ -166,7 +136,8 @@ Execute the program using runserver command.
 
 
 ## OUTPUT
-![alt text](<Screenshot 2024-03-19 132246.png>)
+![alt text](<timetable ss.png>)
+
 
 
 ## RESULT
